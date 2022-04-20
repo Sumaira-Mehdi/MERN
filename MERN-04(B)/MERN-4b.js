@@ -14,8 +14,8 @@ maxNum()
     //Take the maximum number from an array using reduce function.
     var numbersArr = [10, 30, 100 , 20, 90];
         let reduceNumber = () =>{
-        let reduceTheArr = numbersArr.reduce((prev, curr) => {
-             return Math.max(prev, curr)
+        let reduceTheArr = numbersArr.reduce((previous, current) => {
+             return Math.max(previous, current)
         }); 
     console.log(`maximum value using reduce is ${reduceTheArr}`);
     
