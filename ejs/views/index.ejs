@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>
+            my ejs work
+        </title>
+    </head>
+</html>
+<body>
+    <h1>my ejs</h1>
+    <p><%= tagline %></p>
+    
+    
+    <ul>
+        <li><%= karachi.name %></li>
+            <ul>
+                <% karachi.famousplaces.forEach(function(value) { %>
+                <li>
+                    <%= value %>
+                 </li>
+                <% }); %>
+            </ul>
+        <li><%= lahore.name %></li>
+            <ul>
+                <% lahore.famousplaces.forEach(function(value) { %>
+                <li>
+                    <%= value %>
+                 </li>
+                <% }); %>
+            </ul>
+     </ul>
+    
+    
+            
+    
+
+</body>
+</html>

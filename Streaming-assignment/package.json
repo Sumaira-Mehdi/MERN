@@ -1,0 +1,15 @@
+{
+  "name": "nodemon",
+  "version": "1.0.0",
+  "description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry.\r  Lorem Ipsum has been the industry's standard dummy text ever since the 1500s\r  , when an unknown printer took a galley of type and scrambled it to make a type specimen book.\r   It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged.",
+  "main": "nodemon.js",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "eslint": "^8.15.0"
+  }
+}
